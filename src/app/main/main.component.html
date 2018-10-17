@@ -1,0 +1,57 @@
+<script src="following/following.component.ts"></script>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="row">
+        <app-headline></app-headline>
+      </div>
+      <div class="row">
+        <app-following (sendNetId)="getNewNetId($event)"></app-following>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <app-posts [getNetIdFromParent]="getNetIdFromFollowing"></app-posts>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!--
+
+<div class="col-md-6">
+  <div class="panel panel-success panel-body" *ngIf="feed[0] != null">
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="badge">
+              <span class="glyphicon glyphicon-user"></span>{{feed[0].author}}
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <span class="label label-info">{{feed[0].create_time}}</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="panel panel-default panel-body" style="margin-top: 9px; margin-left: 3px; margin-bottom: -7px">
+            {{feed[0].content}}
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <div class="row" style="text-align: center">
+          <img src="{{feed[0].pic}}" class="img-rounded" alt="feed pic" width="120px" height="96px">
+        </div>
+        <div class="row" style="text-align: center; margin-top: 5px">
+          <button class="btn btn-success" style="margin-right: 5px">Edit</button>
+          <button class="btn btn-info">Comment</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->

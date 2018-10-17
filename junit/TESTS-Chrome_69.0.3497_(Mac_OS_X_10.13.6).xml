@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 69.0.3497 (Mac OS X 10.13.6)" package="" timestamp="2018-10-17T05:42:11" id="0" hostname="zhaokangdembp-2.dyndns.rice.edu" tests="29" errors="0" failures="0" time="2.971">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"/>
+  </properties>
+  <testcase name="AppRoutingModule should create an instance" time="0.004" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).AppRoutingModule"/>
+  <testcase name="AppComponent should create the app" time="0.45" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).AppComponent"/>
+  <testcase name="AuthComponent should create" time="0.197" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).AuthComponent"/>
+  <testcase name="LoginComponent should create" time="0.12" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="LoginComponent should log in a previously registered user (not new users)" time="0.113" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="LoginComponent should update success message (for displaying login success message to user)" time="0.106" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="LoginComponent should not login an invalid user" time="0.11" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="LoginComponent should update error message (for displaying login error mesage to user)" time="0.099" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="LoginComponent should log out a user (login state should be cleared)" time="0.092" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="RegisterationComponent should create" time="0.115" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).RegisterationComponent"/>
+  <testcase name="RegisterationService should be created" time="0.008" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).RegisterationService"/>
+  <testcase name="FollowingComponent should create" time="0.116" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).FollowingComponent"/>
+  <testcase name="FollowingComponent should add articles when adding a follower" time="0.095" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).FollowingComponent"/>
+  <testcase name="FollowingComponent should remove articles when removing a follower" time="0.111" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).FollowingComponent"/>
+  <testcase name="FollowingService should be created" time="0.006" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).FollowingService"/>
+  <testcase name="HeadlineComponent should create" time="0.052" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).HeadlineComponent"/>
+  <testcase name="HeadlineService should be created" time="0.018" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).HeadlineService"/>
+  <testcase name="MainComponent should create" time="0.145" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).MainComponent"/>
+  <testcase name="CommentsComponent should create" time="0.041" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).CommentsComponent"/>
+  <testcase name="PostsComponent should create" time="0.124" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).PostsComponent"/>
+  <testcase name="PostsComponent should update the search keyword" time="0.11" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).PostsComponent"/>
+  <testcase name="PostsComponent should fetch articles for current logged in user" time="0.095" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).PostsComponent"/>
+  <testcase name="PostsComponent should filter displayed articles by the search keyword" time="0.106" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).PostsComponent"/>
+  <testcase name="PostsComponent should add articles when adding a follower" time="0.113" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).PostsComponent"/>
+  <testcase name="PostsComponent should remove articles when removing a follower" time="0.115" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).PostsComponent"/>
+  <testcase name="PostsService should be created" time="0.018" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).PostsService"/>
+  <testcase name="ProfileComponent should create" time="0.135" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).ProfileComponent"/>
+  <testcase name="ProfileComponent should fetch the user`s profile information" time="0.146" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).ProfileComponent"/>
+  <testcase name="ProfileService should be created" time="0.011" classname="Chrome_69_0_3497_(Mac_OS_X_10_13_6).ProfileService"/>
+  <system-out>
+  </system-out>
+  <system-err/>
+</testsuite>

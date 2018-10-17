@@ -1,0 +1,38 @@
+<div class="panel panel-info">
+  <div class="panel panel-heading">
+    <div class="panel-title">
+      <strong>Basic Profile</strong>
+    </div>
+  </div>
+  <div class="panel-body">
+    <div class="row" style="margin-top: -10px">
+      <div class="col-sm-5">
+        <img src="{{user.profile}}" alt="my profile" class="img-circle" width="75px" height="90px">
+      </div>
+      <div class="col-sm-7">
+        <div class="row" style="margin-top: 10px">
+          <div class="badge">
+            <span class="glyphicon glyphicon-user"></span>{{user.display_name}}
+          </div>
+        </div>
+        <div class="row" style="margin-top: 15px">
+          <span class="label label-info">{{user.headline}}</span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-7">
+        <input type="text" class="form-control" placeholder="new status" [(ngModel)]="newStatus">
+      </div>
+      <div class="col-sm-5">
+        <button class="btn btn-success" (click)="updateHeadline()">Update</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-footer">
+    <button id="logout" class="btn btn-danger" (click)="logout()" style="margin-right: 80px">Log Out</button>
+    <button id="profile" class="btn btn-warning" (click)="toProfile()">Profile</button>
+  </div>
+</div>
